@@ -15,14 +15,15 @@ header{
     padding-bottom:1rem;
     font-family: "Edu TAS Beginner", cursive;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
 }
 
-  
-.card-img{
-
+p{
+     font-family: "Sometype Mono", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-
 .pin{
     position: absolute;
     transform: translate(70%, -70%);
