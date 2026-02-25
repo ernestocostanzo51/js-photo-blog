@@ -18,12 +18,7 @@ header{
     font-weight: 800;
 }
 
-p{
-     font-family: "Sometype Mono", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+
 .pin{
     position: absolute;
     transform: translate(70%, -70%);
@@ -32,5 +27,18 @@ p{
 
 h1{
     padding: 1.5rem;
+}
+
+.data{
+font-family: "Sometype Mono", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titolo{
+ font-family: "Edu TAS Beginner", cursive;
+    font-style: normal;
+    font-weight: 800;
 }
 
