@@ -5,7 +5,7 @@ const rowEl = document.querySelector(".row")
 
 
 
-        fetch("https://lanciweb.github.io/demo/api/pictures/")
+fetch("https://lanciweb.github.io/demo/api/pictures/")
 .then(res => res.json())
 .then(data =>{
     console.log(data)

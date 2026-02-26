@@ -42,3 +42,15 @@ font-family: "Sometype Mono", cursive;
     font-weight: 800;
 }
 
+.card:hover{
+    transform: rotate(6deg);
+    transition: 0.25s;
+    .pin{
+        display: none;
+    }
+
+    
+}
+
+
+
