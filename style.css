@@ -43,12 +43,11 @@ font-family: "Sometype Mono", cursive;
 }
 
 .card:hover{
-    transform: rotate(6deg);
+    transform: rotate(5deg);
     transition: 0.25s;
     .pin{
         display: none;
     }
-    cursor: pointer;
 }
 
 .overlay {

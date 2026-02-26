@@ -2,7 +2,7 @@
 
 
 const rowEl = document.querySelector(".row")
-const cardImgEl = document.querySelector(".card-img")
+
 
 
 
