@@ -2,6 +2,10 @@
 
 
 const rowEl = document.querySelector(".row")
+let imgEl = document.querySelector(".card-img")
+let imgOverlay = document.querySelector("imgOverlay")
+
+
 
 
 
@@ -27,8 +31,16 @@ fetch("https://lanciweb.github.io/demo/api/pictures/")
                 </div>
                 </div>`;
 
+
+
 rowEl.insertAdjacentHTML('beforeend', markup)
+
+
     }); 
+})
+
+addEventListener('click', function(){
+
 })
 
 
